@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IMC: Sua Massa corporal</string>
+    <string name="altura">Digite sua altura em cm:</string>
+    <string name="peso">Digite seu peso:</string>
+    <string name="desc_peso">Digite seu peso aqui</string>
+    <string name="desc_altura">Digite sua altura aqui</string>
+    <string name="dados_inc">Preencha os dados corretamente</string>
+    <string name="result_abaixo">Abaixo do peso</string>
+    <string name="result_normal">Peso normal</string>
+    <string name="result_obesidade">Obesidade</string>
+    <string name="result_obesMorb">Obesidade Morbida</string>
+    <string name="calcular">CALCULAR</string>
+
+
+</resources>
