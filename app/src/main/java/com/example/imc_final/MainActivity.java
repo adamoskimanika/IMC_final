@@ -28,6 +28,18 @@ public class MainActivity extends AppCompatActivity {
         final Button button = (Button)findViewById(R.id.btn_calcular);
         button.setOnClickListener (new View.OnClickListener(){
                                        public void onClick (View v){
+/*
+                                           if (edt_Peso.getText().toString().equals("") ){
+                                               txt_Result.setText(R.string.dados_inc);
+                                               edt_Peso.requestFocus();
+                                           } else if(edt_Altura.getText().toString().equals("") ){
+                                               txt_Result.setText(R.string.dados_inc);
+                                               edt_Altura.requestFocus();
+                                           }*/
+
+                                           /*if (edt_Peso.getText().toString().trim().equals("") ){
+                                               txt_Result.setText(R.string.dados_inc);
+                                           }*/
                                            int peso = 0;
                                            peso = Integer.parseInt(edt_Peso.getText().toString());
                                            float altura = 0.0F;
